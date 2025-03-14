@@ -1,30 +1,30 @@
-# 📌 LinkThree - Seu Hub de Links Personalizado
+# 📈 Projeto Cripto
 
 ## 📖 Descrição
-
-O **LinkThree** é um projeto inspirado no Linktree, que permite a criação de uma página personalizada para agrupar e compartilhar múltiplos links. Os usuários podem personalizar suas páginas, alterando a cor do texto, a cor de fundo e adicionando suas redes sociais em uma seção dedicada.
+O **Projeto Cripto** é uma aplicação que permite acompanhar o preço atual, valor de mercado, volume e variação das criptomoedas nas últimas 24 horas. Utilizando a **CoinCap API 2.0**, a plataforma fornece informações atualizadas e detalhadas sobre o mercado de criptoativos.
 
 ## 🚀 Tecnologias Utilizadas
 
 - **React** - Biblioteca para construção da interface do usuário
-- **Tailwind CSS** - Framework para estilização rápida e responsiva
-- **TypeScript** - Tipagem estática para melhor manutenção do código
-- **Firebase** - Backend-as-a-Service para autenticação e armazenamento de dados
-- **React Router DOM** - Gerenciamento de rotas para navegação entre as páginas
+- **CSS Modules** - Estilização modular e isolada para componentes
+- **TypeScript** - Tipagem estática para maior segurança no código
+- **CoinCap API 2.0** - API para obter dados em tempo real sobre criptomoedas
+- **React Router DOM** - Gerenciamento de rotas para navegação entre páginas
+- **React Icons** - Biblioteca de ícones para melhorar a interface visual
 
 ## ✨ Funcionalidades
 
-- ✅ Criar e gerenciar uma lista de links personalizados  
-- ✅ Alterar a cor do texto e do fundo da página  
-- ✅ Adicionar redes sociais na seção de redes sociais  
-- ✅ Interface responsiva e moderna com Tailwind CSS  
-- ✅ Autenticação segura com Firebase  
+- 📊 Acompanhar preços atualizados de criptomoedas
+- 📈 Visualizar valor de mercado e volume de cada ativo
+- 🔄 Observar a mudança de preço nas últimas 24 horas
+- 🔍 Buscar por uma criptomoeda específica
+- 🌙 Interface responsiva e moderna
 
 ## 📦 Como executar o projeto
 
 ### 1️⃣ Clone o repositório:
 ```bash
-git clone https://github.com/Alessandro-Vieira77/crypto-currency-project.git
+git clone https://crypto-currency-project-gray.vercel.app/
 cd crypto-currency-project
 ```
 
@@ -35,7 +35,7 @@ npm install
 yarn install
 ```
 
-### 4️⃣ Execute o projeto:
+### 3️⃣ Execute o projeto:
 ```bash
 npm run dev
 ```
