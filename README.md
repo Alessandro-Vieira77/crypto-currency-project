@@ -24,8 +24,8 @@ O **LinkThree** é um projeto inspirado no Linktree, que permite a criação de 
 
 ### 1️⃣ Clone o repositório:
 ```bash
-git clone https://github.com/Alessandro-Vieira77/Links_FireBase.git
-cd Links_FireBase
+git clone https://github.com/Alessandro-Vieira77/crypto-currency-project.git
+cd crypto-currency-project
 ```
 
 ### 2️⃣ Instale as dependências:
@@ -41,5 +41,5 @@ npm run dev
 ```
 
 ### 4️⃣ projeto online:
-- https://links-fire-base.vercel.app/
+- https://crypto-currency-project-gray.vercel.app/
 
