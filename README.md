@@ -1,54 +1,45 @@
-# React + TypeScript + Vite
+# 📌 LinkThree - Seu Hub de Links Personalizado
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Descrição
 
-Currently, two official plugins are available:
+O **LinkThree** é um projeto inspirado no Linktree, que permite a criação de uma página personalizada para agrupar e compartilhar múltiplos links. Os usuários podem personalizar suas páginas, alterando a cor do texto, a cor de fundo e adicionando suas redes sociais em uma seção dedicada.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React** - Biblioteca para construção da interface do usuário
+- **Tailwind CSS** - Framework para estilização rápida e responsiva
+- **TypeScript** - Tipagem estática para melhor manutenção do código
+- **Firebase** - Backend-as-a-Service para autenticação e armazenamento de dados
+- **React Router DOM** - Gerenciamento de rotas para navegação entre as páginas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Funcionalidades
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- ✅ Criar e gerenciar uma lista de links personalizados  
+- ✅ Alterar a cor do texto e do fundo da página  
+- ✅ Adicionar redes sociais na seção de redes sociais  
+- ✅ Interface responsiva e moderna com Tailwind CSS  
+- ✅ Autenticação segura com Firebase  
+
+## 📦 Como executar o projeto
+
+### 1️⃣ Clone o repositório:
+```bash
+git clone https://github.com/Alessandro-Vieira77/Links_FireBase.git
+cd Links_FireBase
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+### 2️⃣ Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
 ```
+
+### 4️⃣ Execute o projeto:
+```bash
+npm run dev
+```
+
+### 4️⃣ projeto online:
+- https://links-fire-base.vercel.app/
+
